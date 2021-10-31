@@ -7,16 +7,16 @@
     tools:context=".ActivityTask1">
 
     <ImageView
-    android:id="@+id/task_view"
-    android:layout_width="300dp"
-    android:layout_height="300dp"
-    android:src="@drawable/apple_black"
-    app:layout_constraintBottom_toTopOf="@id/button_1"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    tools:layout_editor_absoluteX="55dp"
-    tools:layout_editor_absoluteY="42dp"
+        android:id="@+id/task_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/apple_black"
+        app:layout_constraintBottom_toTopOf="@id/button_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="42dp"
         android:contentDescription="@string/todo" />
 
     <ImageButton
@@ -25,11 +25,11 @@
         android:layout_height="150dp"
         android:scaleType="fitCenter"
         android:src="@drawable/pear"
+        android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@id/button_3"
         app:layout_constraintEnd_toStartOf="@id/button_2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/task_view"
-        android:background="@color/white"
         android:contentDescription="@string/todo" />
 
     <ImageButton
@@ -38,12 +38,12 @@
         android:layout_height="150dp"
         android:scaleType="fitCenter"
         android:src="@drawable/plum"
+        android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@id/button_4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/button_1"
         app:layout_constraintTop_toBottomOf="@id/task_view"
         tools:layout_editor_absoluteY="365dp"
-        android:background="@color/white"
         android:contentDescription="@string/todo" />
 
     <ImageButton
@@ -52,11 +52,11 @@
         android:layout_height="150dp"
         android:scaleType="fitCenter"
         android:src="@drawable/orange"
+        android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@id/end_button"
         app:layout_constraintEnd_toStartOf="@id/button_4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_1"
-        android:background="@color/white"
         android:contentDescription="@string/todo" />
 
     <ImageButton
@@ -65,13 +65,13 @@
         android:layout_height="150dp"
         android:scaleType="fitCenter"
         android:src="@drawable/apple"
+        android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@id/end_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/button_3"
         app:layout_constraintTop_toBottomOf="@id/button_2"
         tools:layout_editor_absoluteX="205dp"
         tools:layout_editor_absoluteY="515dp"
-        android:background="@color/white"
         android:contentDescription="@string/todo" />
 
     <ImageButton

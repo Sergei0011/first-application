@@ -20,14 +20,15 @@ class ActivityTask2 : AppCompatActivity() {
 
         winButton.setOnClickListener {
 
+            winButton.setImageResource(R.drawable.salut)
+
+            taskView.setImageResource(R.drawable.lemon)
+
             taskView.animate().apply {
                 duration = 1000
                 rotationYBy(360f)
                 start()
             }
-
-            winButton.setBackgroundColor(R.color.green)
-
 
         }
 
@@ -55,7 +56,15 @@ class ActivityTask2 : AppCompatActivity() {
 
         falseButton1.setOnClickListener {
 
-            falseButton1.setBackgroundColor(R.color.red)
+            falseButton1.setImageResource(R.drawable.sad_smile)
+
+            taskView.setImageResource(R.drawable.lemon_black)
+
+            taskView.animate().apply {
+                duration = 1000
+                rotationYBy(360f)
+                start()
+            }
 
         }
 
@@ -63,7 +72,15 @@ class ActivityTask2 : AppCompatActivity() {
 
         falseButton2.setOnClickListener {
 
-            falseButton2.setBackgroundColor(R.color.red)
+            falseButton2.setImageResource(R.drawable.sad_smile)
+
+            taskView.setImageResource(R.drawable.lemon_black)
+
+            taskView.animate().apply {
+                duration = 1000
+                rotationYBy(360f)
+                start()
+            }
 
         }
 
@@ -71,7 +88,15 @@ class ActivityTask2 : AppCompatActivity() {
 
         falseButton3.setOnClickListener {
 
-            falseButton3.setBackgroundColor(R.color.red)
+            falseButton3.setImageResource(R.drawable.sad_smile)
+
+            taskView.setImageResource(R.drawable.lemon_black)
+
+            taskView.animate().apply {
+                duration = 1000
+                rotationYBy(360f)
+                start()
+            }
 
         }
 

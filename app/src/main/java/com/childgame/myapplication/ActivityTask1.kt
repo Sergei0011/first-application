@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.ImageButton
 import android.widget.ImageView
-import com.childgame.myapplication.R.color
 
 class ActivityTask1 : AppCompatActivity() {
     @SuppressLint("ResourceAsColor")
@@ -21,14 +20,15 @@ class ActivityTask1 : AppCompatActivity() {
 
         winButton.setOnClickListener {
 
+            winButton.setImageResource(R.drawable.salut)
+
+            taskView.setImageResource(R.drawable.apple)
+
             taskView.animate().apply {
                 duration = 1000
                 rotationYBy(360f)
                 start()
             }
-
-            winButton.setBackgroundColor(color.green)
-
 
         }
 
@@ -47,7 +47,15 @@ class ActivityTask1 : AppCompatActivity() {
 
         falseButton1.setOnClickListener {
 
-            falseButton1.setBackgroundColor(color.red)
+            falseButton1.setImageResource(R.drawable.sad_smile)
+
+            taskView.setImageResource(R.drawable.apple_black)
+
+            taskView.animate().apply {
+                duration = 1000
+                rotationYBy(360f)
+                start()
+            }
 
         }
 
@@ -55,7 +63,15 @@ class ActivityTask1 : AppCompatActivity() {
 
         falseButton2.setOnClickListener {
 
-            falseButton2.setBackgroundColor(color.red)
+            falseButton2.setImageResource(R.drawable.sad_smile)
+
+            taskView.setImageResource(R.drawable.apple_black)
+
+              taskView.animate().apply {
+                duration = 1000
+                rotationYBy(360f)
+                start()
+            }
 
         }
 
@@ -63,11 +79,17 @@ class ActivityTask1 : AppCompatActivity() {
 
         falseButton3.setOnClickListener {
 
-            falseButton3.setBackgroundColor(color.red)
+            falseButton3.setImageResource(R.drawable.sad_smile)
+
+            taskView.setImageResource(R.drawable.apple_black)
+
+            taskView.animate().apply {
+                duration = 1000
+                rotationYBy(360f)
+                start()
+            }
 
         }
-
-
     }
 }
 
